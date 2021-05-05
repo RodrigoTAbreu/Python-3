@@ -1,19 +1,19 @@
-n1 = int(input('Primeiro: '))
-n2 = int(input('Segundo: '))
-n3 = int(input('Terceiro: '))
-menor = maior = 0
-if n1 > n2 and n1 > n3:
-    maior = n1
-else:
-    menor = n1
-if n2 > n1 and n2 > n3:
-    maior = n2
-else:
-    menor = n2
-if n3 > n2 and n3 > n1:
-    maior = n3
-else:
-    menor = n3
+a = int(input('Primeiro: '))
+b = int(input('Segundo: '))
+c = int(input('Terceiro: '))
+#verificando o menor valor
+menor = a
+if b < c and b < a:
+    menor = b
+if c<a and c<b:
+    menor = c
+print('O Menor é {}'.format(menor))
+# verificando o maior
+maior = a
+if b >c and b > a:
+    maior = b
+if c > a and c > b:
+    maior = c
 
 print('O Maior é {}'.format(maior))
-print('O Menor é {}'.format(menor))
+print('A soma de ambos é {}'.format(menor+maior))
