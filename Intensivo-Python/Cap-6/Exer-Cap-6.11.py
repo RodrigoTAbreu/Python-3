@@ -17,7 +17,7 @@ cidades = {
 }
 
 for cidade, pais in cidades.items():
-    print('Nome da cidade:{}\n\tPais:{}\n\tPopulação:{}.\n\tFato:{}'.format(cidade,pais['country'],pais['population'],pais['fact']))
+    print('Nome da cidade:{}\n\tPais:{}\n\tPopulação:{}.\n\tpyyFato:{}'.format(cidade,pais['country'],pais['population'],pais['fact']))
     #for local in pais:
 
      #  print('{}-->>'.format(local('country')))
