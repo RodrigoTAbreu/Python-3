@@ -1,3 +1,3 @@
-from pizza import make_pizza
-make_pizza('Gigante','aliche')
-make_pizza('Media','Mussarela','4-Queijos','Chedder')
+from pizza import make_pizza as mp
+mp('Gigante','aliche')
+mp('Media','Mussarela','4-Queijos','Chedder')
