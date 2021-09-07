@@ -17,7 +17,7 @@ while True:
    computador = randint(0,10)
    soma = jogador + computador
    print(f'Você escolheu {parImpar} e jogou {jogador}, o computador jogou {computador}. Total {soma}')
-   print('=='*20,end='')
+   print('=='*20)
    if parImpar == 'P':
       if soma % 2 == 0:
          venceu +=1
