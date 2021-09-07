@@ -1,10 +1,8 @@
-n = c = 0
-numeros = []
+n =s= c = 0
 while True:
     n = int(input('Digte um Número [999 finaliza]:'))
     if n == 999:
         break
-    numeros.append(n)
-    soma = sum(numeros)
+    s += n
     c +=1
-print(f'A soma dos numeros é {soma}. Total de nº digitados foi {c}')
+print(f'A soma dos numeros é {s}. Total de nº digitados foi {c}')
