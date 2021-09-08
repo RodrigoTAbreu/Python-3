@@ -19,27 +19,25 @@ while True:
    print('=='*30)
    computador = randint(0,10)
    soma = jogador + computador
-   print(f'Você escolheu {parImpar} e jogou {jogador}, o computador jogou {computador}. Total {soma}')
+   print(f'Você escolheu {parImpar} e jogou {jogador}, o computador jogou {computador}. Total {soma}. ',end='')
+   print('DEU PAR.'if soma %2 ==0 else 'DEU IMPAR.')
    print('=='*30)
+   #while parImpar not in 'PI': poderia ter usado um validador de entrada para PAR ou IMPAR
    if soma %2 == 0 and parImpar == 'P':
       venceu +=1
-      print('Deu PAR.',end=' ')
       print('Parabéns. Você venceu. Vamos jogar mais uma vez.')
       print('~~' * 20)
    elif soma %2 ==0 and parImpar == 'I':
-      print('Deu PAR.',end=' ')
-      print('Você perdeu.')
+      print('Você perdeu.',end='')
       break
    elif soma%2 !=0 and parImpar == 'I':
-      print('Deu IMPAR.',end=' ')
       print('Parabéns. Você venceu. Vamos jogar mais uma vez.')
       print('~~' * 20)
       venceu +=1
    elif soma%2 != 0 and parImpar == 'P':
-      print('Deu IMPAR',end=' ')
-      print('Você perdeu.')
+      print('Você perdeu. ',end='')
       break
-print('-='*20)
+#print('-='*20)
 print('Game Over!!!.')
 if venceu != 0:
    print(f'Você venceu {venceu} vez.')
