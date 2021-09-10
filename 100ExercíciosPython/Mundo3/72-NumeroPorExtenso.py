@@ -1,19 +1,18 @@
-numeros = ('zero','um','dois','três','quatro','cinco','seis','sete','oito','nove','dez')
+numeros = ('zero','um','dois','três','quatro',
+           'cinco','seis','sete','oito','nove','dez')
 continua = ' '
 
-while True:
-    n = int(input('Digite um número: '))
-    while n not in range(0,10):
-        if n > 10:
-            print('Digite um número de 0 a 10.')
-            n = int(input('Digite um número: '))
-    if n < 10:
-        print(f'Você digitou {n} {numeros[n]}.')
+while True:# enquanto for verdade
+    n = int(input('Digite um número: ')) # recebe o valor de N do usuário
+    while n not in range(0,11): # enquanto N não está entre a RANGE(0,11)
+        print('Digite um número de 0 a 10.') #imprime msg de alerta
+        n = int(input('Digite um número: ')) #solicita o N novamente.
 
-    while continua not in 'SN':
-        continua = input('Quer continuar[S/N]: ').upper()[0].strip()
+    print(f'Você digitou {n} {numeros[n]}.') #imprime o resultado N e a posição de N na tupla
 
-    if continua == 'N':
+    continua = input('Quer continuar[S/N]: ').upper()[0].strip() # solicita o continue para usuário
+
+    if continua == 'N': #sendo negativo ele para o programa.
         break
 
 print('fim')
