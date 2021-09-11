@@ -9,7 +9,9 @@ while True:
         break
 
 if 5 in lista:
-    print('O 5 faz parte da lista')
+    print('O 5 faz parte da lista.')
+else:
+    print('O 5 não faz parte da lista.')
 
 print(lista)
 print(f'Foram digitados {len(lista)} numeros na lista.')
