@@ -1,6 +1,4 @@
 lista = list()
-tempar = list()
-temimpar = list()
 temp = list()
 for c in range(1,5):
     lista.append(int(input(f'Digite o {c}º valor:')))
