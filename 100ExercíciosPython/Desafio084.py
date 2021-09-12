@@ -27,7 +27,7 @@ for p in lista:
     if p[1] == maior:
         print(f'[ {p[0]} ]', end='')
 print()
-print(f'Os menor Peso: {menor} Kg.',end='')
+print(f'O menor Peso: {menor} Kg.',end='')
 for p in lista:
     if p[1] == menor:
         print(f'[ {p[0]} ]', end='')
