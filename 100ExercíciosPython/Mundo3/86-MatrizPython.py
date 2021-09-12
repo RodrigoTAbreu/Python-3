@@ -8,4 +8,4 @@ print('=='*30)
 for l in range(0,3):
     for c in range(0,3):#para cada coluna de 0 a 3
         print(f'[{matriz[l][c]:^5}]', end=' ') #imprime a lista na posição L e C
-     print()
+    print()
