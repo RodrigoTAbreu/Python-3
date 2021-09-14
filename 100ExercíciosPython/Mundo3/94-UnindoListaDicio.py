@@ -3,12 +3,14 @@ pessoas = dict()
 soma = media = 0
 while True:
     pessoas.clear()
-    pessoas['nome'] = str(input('Nome: ')).upper()
-    while True:
+    pessoas['nome'] = str(input('Nome: ')).upper()[0]
+
+    while True:#validando se o sexo é M ou F
         pessoas['sexo'] = str(input('Sexo: ')).upper().strip()[0]
         if pessoas['sexo'] in 'MF':
             break
         print('ERRO! Digite M ou F')
+
     pessoas['idade'] = int(input('Idade: '))
     soma += pessoas['idade']
     galera.append(pessoas.copy())
@@ -19,15 +21,21 @@ while True:
         print('ERRO!!!Digite S ou N.')
     if resp == 'N':
         break
-print('**'*30) #até essa linha foi apenas leitura de dados.
+print('**'*30)
+#até essa linha foi apenas leitura de dados.
+
 print(f' A) Total de pessoas cadastradas {len(galera)}')
 media = soma / len(galera)
 print(f' B) A média de idade do grupo é de {media:5.2f} anos.')
+
+#informação sobre as mulheres cadastradas
 print(f' C) As mulheres cadastradas foram ', end='')
 for individuo in galera:
     if individuo['sexo'] in 'Ff':
         print(f'{individuo["nome"]} ', end='')
 print()
+
+#pessoas acima da media de idade
 print(' D) Pessoas acima da Média: ')
 for individuo in galera:
     if individuo['idade'] >= media:
