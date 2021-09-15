@@ -14,6 +14,7 @@ def sorteia():
 
 def soma(listaPar):
     print(f'A soma dos números PARES sorteados é: {sum(listaPar)}')
+    print(f'A soma de todos os números sorteados {sum(num)}')
 
 
 sorteia()
