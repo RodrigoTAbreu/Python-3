@@ -9,7 +9,9 @@ def contador(i,f,p):
     print(f'Valor de Passo: {p}')
     print('**' * 10)
     if i>f:
-        while i > f:
+        if p == 0:
+            p = 1
+        while i >= f:
             #print(i)
             sleep(1)
             print(f'> {i}.', end=' ')
