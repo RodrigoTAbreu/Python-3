@@ -30,6 +30,7 @@ for k, v in enumerate(time):
         print(f'{str(d):<15}', end='')
     print()
 print('-'*40)
+
 while True:
     op = int(input('Digite o Cod. do Jogador para ver detalhes.[999-sair]:'))
     if op == 999:
@@ -38,7 +39,7 @@ while True:
     if op >= len(time):
         print('Erro! Digite o código válido')
     else:
-        print(f'Levantamento do Jogador {time[op]["Nome"]}')
+        print(f'Levantamento do Jogador {time[op]["Nome"]}')#OP é o indice que está dentro da lista time e "NOME" está dentro do dicionario.
         for i,g in enumerate(time[op]["Gols"]):
             print(f' No jogo {i+1} fez {g} gols.')
     print('-'*40)
