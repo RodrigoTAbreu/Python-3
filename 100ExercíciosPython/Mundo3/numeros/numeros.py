@@ -26,3 +26,15 @@ def diminuir(n = 0,taxa = 0, formato=False):
 
 def moeda(n = 0, moeda = 'R$'):
     return f'{moeda}{n:>.2f}'.replace('.',',')
+
+def resumo(preco= 0, taxaA=10, taxaR=5):
+    print('-'*30)
+    print('RESUMO DO VALOR'.center(30))
+    print('-' * 30)
+    print(f'Preço Analisado: \t{moeda(preco)}')
+    print(f'Dobro do Preço: \t{dobro(preco,True)}')
+    print(f'Metade do Preço: \t{metade(preco,True)}')
+    print(f'{taxaA}% de Aumento: \t{aumento(preco,taxaA,True)}')
+    print(f'{taxaR}% de Redução: \t\t{diminuir(preco,taxaR, True)}')
+
+    print('-'*30)
