@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae5d7390-8c59-4e9b-9746-f3937deb116f" name="Default Changelist" comment="" />
+    <list default="true" id="ae5d7390-8c59-4e9b-9746-f3937deb116f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +16,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XIgKZ4OIpC5YNbt2RHuJMYRAuE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,11 +28,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AulasCurso" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
   </component>
-  <component name="RunManager" selected="Python.Desafio107">
-    <configuration name="Aula022-ProgPrincipal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.58-JogoAdivinhação.">
+    <configuration name="43-IndiceMassaCorporea" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100ExercíciosPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -34,11 +40,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mundo2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Rodrigo\PycharmProjects\100ExercíciosPython\Aula022-ProgPrincipal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo2/43-IndiceMassaCorporea.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -47,7 +53,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Desafio097" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="45-Jogo-JoKenPo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100ExercíciosPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,11 +61,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mundo2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Desafio097.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo2/45-Jogo-JoKenPo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Desafio098" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="49-Tabuada" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100ExercíciosPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +82,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mundo2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Desafio098.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo2/49-Tabuada.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Desafio099" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="58-JogoAdivinhação." type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100ExercíciosPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mundo2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Desafio099.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo2/58-JogoAdivinhação..py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Desafio107" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="68-JogoParouImpar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100ExercíciosPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mundo2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Desafio107.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo2/68-JogoParouImpar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Desafio107" />
-        <item itemvalue="Python.Aula022-ProgPrincipal" />
-        <item itemvalue="Python.Desafio099" />
-        <item itemvalue="Python.Desafio098" />
-        <item itemvalue="Python.Desafio097" />
+        <item itemvalue="Python.58-JogoAdivinhação." />
+        <item itemvalue="Python.43-IndiceMassaCorporea" />
+        <item itemvalue="Python.68-JogoParouImpar" />
+        <item itemvalue="Python.49-Tabuada" />
+        <item itemvalue="Python.45-Jogo-JoKenPo" />
       </list>
     </recent_temporary>
   </component>
@@ -158,58 +164,31 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1582239410981">
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1647863776680">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="125" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582239410981" />
-    <state width="1000" height="194" key="GridCell.Tab.0.bottom" timestamp="1585541015870">
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1647863776680" />
+    <state width="1345" height="540" key="GridCell.Tab.0.bottom" timestamp="1645882085363">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1000" height="194" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585541015870" />
-    <state width="1000" height="194" key="GridCell.Tab.0.center" timestamp="1585541015870">
+    <state width="1345" height="540" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1024.738@0.0.1366.738" timestamp="1645882085363" />
+    <state width="1345" height="540" key="GridCell.Tab.0.center" timestamp="1645882085362">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1000" height="194" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1585541015870" />
-    <state width="1000" height="194" key="GridCell.Tab.0.left" timestamp="1585541015870">
+    <state width="1345" height="540" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1024.738@0.0.1366.738" timestamp="1645882085362" />
+    <state width="1345" height="540" key="GridCell.Tab.0.left" timestamp="1645882085362">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1000" height="194" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1585541015870" />
-    <state width="1000" height="194" key="GridCell.Tab.0.right" timestamp="1585541015870">
+    <state width="1345" height="540" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1024.738@0.0.1366.738" timestamp="1645882085362" />
+    <state width="1345" height="540" key="GridCell.Tab.0.right" timestamp="1645882085362">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1000" height="194" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1585541015870" />
-    <state width="1000" height="223" key="GridCell.Tab.1.bottom" timestamp="1585541015866">
+    <state width="1345" height="540" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1024.738@0.0.1366.738" timestamp="1645882085362" />
+    <state x="379" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1647863628008">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1000" height="223" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1585541015866" />
-    <state width="1000" height="223" key="GridCell.Tab.1.center" timestamp="1585541015866">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1000" height="223" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1585541015866" />
-    <state width="1000" height="223" key="GridCell.Tab.1.left" timestamp="1585541015866">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1000" height="223" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1585541015866" />
-    <state width="1000" height="223" key="GridCell.Tab.1.right" timestamp="1585541015866">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1000" height="223" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1585541015866" />
-    <state x="184" y="11" key="SettingsEditor" timestamp="1582239514272">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1582239514272" />
-    <state x="703" y="180" key="com.intellij.ide.util.TipDialog" timestamp="1586616836553">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="703" y="180" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1586616836553" />
-    <state x="371" y="215" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1582239422169">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="371" y="215" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738@0.0.1366.738" timestamp="1582239422169" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1583445670672">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1583445670672" />
+    <state x="379" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1024.738@0.0.1366.738" timestamp="1645881967007" />
+    <state x="379" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1647863628008" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
